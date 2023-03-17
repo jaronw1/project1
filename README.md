@@ -6,16 +6,16 @@ Minesweeper is a single player puzzle game. The goal of the game is to clear the
 
 
 
-Tech Being Used
+##Tech Being Used
 
 HTML/CSS - Canvas to hold the game
 JavaScript
 
-WireFrame
+##WireFrame
 ![Wireframe](./wireframe.jpeg)
 
 
-MVP Checklist
+##MVP Checklist
 Render the starting board
 Render pieces to setup board
 Render each cell to contain a normal number square or mine
@@ -24,7 +24,7 @@ render a action to put a warning on suspected cell
 Have a end game finish screen
 
 
-Stretch Goals
+##Stretch Goals
 To create a random algorithm to change level setup 
 to create 3 different levels of difficulty
 

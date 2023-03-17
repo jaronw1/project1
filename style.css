@@ -14,6 +14,7 @@ body {
 
 .title {
     margin: 20px;
+    font-size: 50px;
 }
 
 .subtext {
@@ -22,31 +23,12 @@ body {
     margin-bottom: 10px;
 }
 
-.board {
-    display: inline-grid;
-    padding: 10px;
-    grid-template-columns: repeat(var(--size), 60px);
-    grid-template-rows: repeat(var(--size), 60px);
-
-}
-
-.board > * {
-    width: 100%;
-    height: 100%;
+#board  {
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     border: 2px solid #BBB;
-    user-select: none;
 }
-
-
-
-
-
-
-
-
-
-

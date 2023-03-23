@@ -16,16 +16,17 @@ JavaScript
 
 
 ## MVP Checklist
-Render the starting board
-Render pieces to setup board
-Render each cell to contain a normal number square or mine
-Have a score to track number of squares revealed
-render a action to put a warning on suspected cell
-Have a end game finish screen
+* Render the starting board
+* Render pieces to setup board
+* Render each cell to contain a normal number square * or mine
+* Have a score to track number of squares revealed
+* render a action to put a warning on suspected cell
+* Have a end game finish screen
 
 
 ## Stretch Goals
-To create a random algorithm to change level setup 
-to create 3 different levels of difficulty
+* To create a random algorithm to change level setup 
+* to create 3 different levels of difficulty
+* c
 
 

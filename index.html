@@ -9,9 +9,27 @@
     </head>
     <body>
         <h1 class="title">Minesweeper</h1>
-        <div class="subtext">Mines left</div>
         <div id="board">
         </div>
+
+
+        <div class="subtext">Mines on Board :4</div>
+
+        <div id ="start" style="display: absolute;">
+            <h1>Start Game!</h1>
+            <p>A remake of the iconic game Minesweeper</p>
+            <button onclick="startGame()">Start Game</a>
+        </div>
+        <div id ="gameover" style="display: none;">
+            <h1>Game Over!</h1>
+            <p>Try Again?</p>
+            <button onclick="restartGame()">Restart</button>
+        </div>
+        <div id="win" style="display: none;">
+            <h1>You Win!</h1>
+            <button onclick="restartGame()">Restart</button>
+        </div>
+
         <br>
         <button id="flag">🚩</button>
     </body>

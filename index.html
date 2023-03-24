@@ -16,14 +16,15 @@
         <div class="subtext">Mines on Board :4</div>
 
         <div id ="start" style="display: absolute;">
-            <h1>Start Game!</h1>
+            <h1>Start!</h1>
             <p>A remake of the iconic game Minesweeper</p>
-            <button onclick="startGame()">Start Game</a>
+            <button onclick="startGame()">Start</button>
+            <p>Simple Rules: Press the tiles, Avoid the bombs</p>
         </div>
         <div id ="gameover" style="display: none;">
             <h1>Game Over!</h1>
             <p>Try Again?</p>
-            <button onclick="restartGame()">Restart</button>
+            <button id="pop" onclick="restartGame()">Restart</button>
         </div>
         <div id="win" style="display: none;">
             <h1>You Win!</h1>

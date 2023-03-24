@@ -40,7 +40,20 @@ function createBoard() {
                 e.target.className = 'tile-clicked'
                 console.log(win.length)
                 if (win.length > 59){
-                    document.getElementById("win").addEventListener("click")
+                    const dub = document.getElementById("win")
+                    dub.style.display = 'block'
+                    dub.addEventListener("click", function(){
+                        dub.style.display = "none"
+                        const eDiv = board.querySelectorAll('div');
+                        for (var i = 0;i <eDiv.length; i++) {
+                            if (eDiv[i].classList.contains("bomb") || eDiv[i].classList.contains("tile-clicked"))  {
+                            console.log("active")
+                                eDiv[i].classList.remove("bomb")
+                                eDiv[i].classList.remove("tile-clicked")
+                                eDiv[i].classList.add("cell");
+                            }}
+                    })
+
 
                 }
                 } 
@@ -96,6 +109,7 @@ function startGame(){
 
 }
 
+const dub = document.getElementById("win")
 
 
 // function GameLose( {

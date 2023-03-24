@@ -19,14 +19,15 @@ JavaScript
 * Render the starting board
 * Render pieces to setup board
 * Render each cell to contain a normal number square * or mine
-* Have a score to track number of squares revealed
-* render a action to put a warning on suspected cell
-* Have a end game finish screen
+* Render a win condition
+* Have a start and end game finish screen
 
 
 ## Stretch Goals
 * To create a random algorithm to change level setup 
 * to create 3 different levels of difficulty
-* c
+* Have a score to track number of squares revealed
+* render a action to put a warning on suspected cell
+
 
 #https://jaronw1.github.io/project11/

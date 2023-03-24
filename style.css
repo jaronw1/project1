@@ -42,10 +42,12 @@ body {
 
 .tile-clicked {
     background-color: darkgray;
+    pointer-events: none;
 }
 
 .bomb {
     background-color: red;
+    pointer-events: none;
 }
 
 #start, #gameover {
@@ -75,3 +77,6 @@ body {
 }
 
 
+#win {
+    
+}

@@ -1,15 +1,15 @@
 
-document.querySelector("board", function(){
+// document.querySelector("board", function(){
 
-})
+// })
 
 
 
-function randomArraySelector(arr) {
-    const randomIndex = Math.floor(Math.random() * arr.length);
+// function randomArraySelector(arr) {
+//     const randomIndex = Math.floor(Math.random() * arr.length);
 
-    return arr[randomIndex]
-}
+//     return arr[randomIndex]
+// }
 
 
 

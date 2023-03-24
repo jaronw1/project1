@@ -8,7 +8,7 @@ Minesweeper is a single player puzzle game. The goal of the game is to clear the
 
 ## Tech Being Used
 
-HTML/CSS - Canvas to hold the game
+HTML/CSS 
 JavaScript
 
 ## WireFrame

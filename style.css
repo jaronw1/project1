@@ -6,6 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
+    background-color: orange;
 }
 
 .title {
@@ -78,5 +79,11 @@ body {
 
 
 #win {
-    
+    text-align: center;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    top: 40%;
+    left: 47%;
 }
